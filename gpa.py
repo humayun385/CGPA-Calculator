@@ -14,15 +14,15 @@ def marks_to_gpa(mark):
     if mark >= 85:
         return 4.0
     elif mark >= 80:
-        return 3.7
+        return 3.66
     elif mark >= 75:
-        return 3.3
-    elif mark >= 70:
+        return 3.33
+    elif mark >= 71:
         return 3.0
-    elif mark >= 65:
-        return 2.7
-    elif mark >= 60:
-        return 2.3
+    elif mark >= 68:
+        return 2.66
+    elif mark >= 62:
+        return 2.33
     elif mark >= 55:
         return 2.0
     elif mark >= 50:
